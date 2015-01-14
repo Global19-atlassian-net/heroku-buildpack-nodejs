@@ -46,6 +46,9 @@ case $arch in
 	"armv6l")
 		node_arch="arm-pi"
 		;;
+	"armv7l")
+		node_arch="arm-pi"
+		;;
 	*)
 		node_arch="x86"
 		;;
